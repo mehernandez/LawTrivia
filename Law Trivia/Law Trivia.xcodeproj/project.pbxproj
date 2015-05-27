@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1062C1719ECAF050058924D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1062C1619ECAF050058924D /* main.m */; };
+		E1062C1A19ECAF050058924D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1062C1919ECAF050058924D /* AppDelegate.m */; };
+		E1062C1D19ECAF050058924D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1062C1C19ECAF050058924D /* ViewController.m */; };
+		E1062C2019ECAF050058924D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1062C1E19ECAF050058924D /* Main.storyboard */; };
+		E1062C2219ECAF050058924D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1062C2119ECAF050058924D /* Images.xcassets */; };
+		E1062C2519ECAF050058924D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1062C2319ECAF050058924D /* LaunchScreen.xib */; };
+		E1062C3119ECAF050058924D /* Law_TriviaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1062C3019ECAF050058924D /* Law_TriviaTests.m */; };
+		E1062C4D19ECC6570058924D /* Pregunta.m in Sources */ = {isa = PBXBuildFile; fileRef = E1062C4C19ECC6570058924D /* Pregunta.m */; };
+		E1EDCD2B19F8AC1E004F4801 /* Álvaro Uribe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD1B19F8AC1E004F4801 /* Álvaro Uribe.jpg */; };
+		E1EDCD2C19F8AC1E004F4801 /* Carlos Fernando Galán.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD1C19F8AC1E004F4801 /* Carlos Fernando Galán.jpg */; };
+		E1EDCD2D19F8AC1E004F4801 /* chavo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD1D19F8AC1E004F4801 /* chavo.jpg */; };
+		E1EDCD2E19F8AC1E004F4801 /* Claudia López.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD1E19F8AC1E004F4801 /* Claudia López.jpg */; };
+		E1EDCD2F19F8AC1E004F4801 /* correcto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD1F19F8AC1E004F4801 /* correcto.jpg */; };
+		E1EDCD3019F8AC1E004F4801 /* Edgar Cipriamo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2019F8AC1E004F4801 /* Edgar Cipriamo.jpg */; };
+		E1EDCD3119F8AC1E004F4801 /* Horacio Serpa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2119F8AC1E004F4801 /* Horacio Serpa.jpg */; };
+		E1EDCD3219F8AC1E004F4801 /* incorrecto.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2219F8AC1E004F4801 /* incorrecto.png */; };
+		E1EDCD3319F8AC1E004F4801 /* Iván Cepeda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2319F8AC1E004F4801 /* Iván Cepeda.jpg */; };
+		E1EDCD3419F8AC1E004F4801 /* james.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2419F8AC1E004F4801 /* james.jpg */; };
+		E1EDCD3519F8AC1E004F4801 /* Jorge Robledo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2519F8AC1E004F4801 /* Jorge Robledo.jpg */; };
+		E1EDCD3619F8AC1E004F4801 /* José David Name.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2619F8AC1E004F4801 /* José David Name.jpg */; };
+		E1EDCD3719F8AC1E004F4801 /* nifunifa.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2719F8AC1E004F4801 /* nifunifa.png */; };
+		E1EDCD3819F8AC1E004F4801 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2819F8AC1E004F4801 /* question.png */; };
+		E1EDCD3919F8AC1E004F4801 /* Roberto Gerlein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2919F8AC1E004F4801 /* Roberto Gerlein.jpg */; };
+		E1EDCD3A19F8AC1E004F4801 /* Teresita García.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCD2A19F8AC1E004F4801 /* Teresita García.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1062C2B19ECAF050058924D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1062C0919ECAF040058924D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1062C1019ECAF040058924D;
+			remoteInfo = "Law Trivia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1062C1119ECAF050058924D /* Law Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Law Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1062C1519ECAF050058924D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1062C1619ECAF050058924D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1062C1819ECAF050058924D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1062C1919ECAF050058924D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1062C1B19ECAF050058924D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1062C1C19ECAF050058924D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1062C1F19ECAF050058924D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1062C2119ECAF050058924D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1062C2419ECAF050058924D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E1062C2A19ECAF050058924D /* Law TriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Law TriviaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1062C2F19ECAF050058924D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1062C3019ECAF050058924D /* Law_TriviaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Law_TriviaTests.m; sourceTree = "<group>"; };
+		E1062C4B19ECC6570058924D /* Pregunta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pregunta.h; sourceTree = "<group>"; };
+		E1062C4C19ECC6570058924D /* Pregunta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pregunta.m; sourceTree = "<group>"; };
+		E1EDCD1B19F8AC1E004F4801 /* Álvaro Uribe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Álvaro Uribe.jpg"; sourceTree = "<group>"; };
+		E1EDCD1C19F8AC1E004F4801 /* Carlos Fernando Galán.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carlos Fernando Galán.jpg"; sourceTree = "<group>"; };
+		E1EDCD1D19F8AC1E004F4801 /* chavo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chavo.jpg; sourceTree = "<group>"; };
+		E1EDCD1E19F8AC1E004F4801 /* Claudia López.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Claudia López.jpg"; sourceTree = "<group>"; };
+		E1EDCD1F19F8AC1E004F4801 /* correcto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = correcto.jpg; sourceTree = "<group>"; };
+		E1EDCD2019F8AC1E004F4801 /* Edgar Cipriamo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Edgar Cipriamo.jpg"; sourceTree = "<group>"; };
+		E1EDCD2119F8AC1E004F4801 /* Horacio Serpa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Horacio Serpa.jpg"; sourceTree = "<group>"; };
+		E1EDCD2219F8AC1E004F4801 /* incorrecto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrecto.png; sourceTree = "<group>"; };
+		E1EDCD2319F8AC1E004F4801 /* Iván Cepeda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Iván Cepeda.jpg"; sourceTree = "<group>"; };
+		E1EDCD2419F8AC1E004F4801 /* james.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = james.jpg; sourceTree = "<group>"; };
+		E1EDCD2519F8AC1E004F4801 /* Jorge Robledo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jorge Robledo.jpg"; sourceTree = "<group>"; };
+		E1EDCD2619F8AC1E004F4801 /* José David Name.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "José David Name.jpg"; sourceTree = "<group>"; };
+		E1EDCD2719F8AC1E004F4801 /* nifunifa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nifunifa.png; sourceTree = "<group>"; };
+		E1EDCD2819F8AC1E004F4801 /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		E1EDCD2919F8AC1E004F4801 /* Roberto Gerlein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Roberto Gerlein.jpg"; sourceTree = "<group>"; };
+		E1EDCD2A19F8AC1E004F4801 /* Teresita García.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Teresita García.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1062C0E19ECAF040058924D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1062C2719ECAF050058924D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1062C0819ECAF040058924D = {
+			isa = PBXGroup;
+			children = (
+				E1062C1319ECAF050058924D /* Law Trivia */,
+				E1062C2D19ECAF050058924D /* Law TriviaTests */,
+				E1062C1219ECAF050058924D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1062C1219ECAF050058924D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1062C1119ECAF050058924D /* Law Trivia.app */,
+				E1062C2A19ECAF050058924D /* Law TriviaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1062C1319ECAF050058924D /* Law Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				E1062C4B19ECC6570058924D /* Pregunta.h */,
+				E1062C4C19ECC6570058924D /* Pregunta.m */,
+				E1062C1819ECAF050058924D /* AppDelegate.h */,
+				E1062C1919ECAF050058924D /* AppDelegate.m */,
+				E1062C1B19ECAF050058924D /* ViewController.h */,
+				E1062C1C19ECAF050058924D /* ViewController.m */,
+				E1062C1E19ECAF050058924D /* Main.storyboard */,
+				E1062C2119ECAF050058924D /* Images.xcassets */,
+				E1062C2319ECAF050058924D /* LaunchScreen.xib */,
+				E1062C1419ECAF050058924D /* Supporting Files */,
+			);
+			path = "Law Trivia";
+			sourceTree = "<group>";
+		};
+		E1062C1419ECAF050058924D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1EDCD1B19F8AC1E004F4801 /* Álvaro Uribe.jpg */,
+				E1EDCD1C19F8AC1E004F4801 /* Carlos Fernando Galán.jpg */,
+				E1EDCD1D19F8AC1E004F4801 /* chavo.jpg */,
+				E1EDCD1E19F8AC1E004F4801 /* Claudia López.jpg */,
+				E1EDCD1F19F8AC1E004F4801 /* correcto.jpg */,
+				E1EDCD2019F8AC1E004F4801 /* Edgar Cipriamo.jpg */,
+				E1EDCD2119F8AC1E004F4801 /* Horacio Serpa.jpg */,
+				E1EDCD2219F8AC1E004F4801 /* incorrecto.png */,
+				E1EDCD2319F8AC1E004F4801 /* Iván Cepeda.jpg */,
+				E1EDCD2419F8AC1E004F4801 /* james.jpg */,
+				E1EDCD2519F8AC1E004F4801 /* Jorge Robledo.jpg */,
+				E1EDCD2619F8AC1E004F4801 /* José David Name.jpg */,
+				E1EDCD2719F8AC1E004F4801 /* nifunifa.png */,
+				E1EDCD2819F8AC1E004F4801 /* question.png */,
+				E1EDCD2919F8AC1E004F4801 /* Roberto Gerlein.jpg */,
+				E1EDCD2A19F8AC1E004F4801 /* Teresita García.jpg */,
+				E1062C1519ECAF050058924D /* Info.plist */,
+				E1062C1619ECAF050058924D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1062C2D19ECAF050058924D /* Law TriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1062C3019ECAF050058924D /* Law_TriviaTests.m */,
+				E1062C2E19ECAF050058924D /* Supporting Files */,
+			);
+			path = "Law TriviaTests";
+			sourceTree = "<group>";
+		};
+		E1062C2E19ECAF050058924D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1062C2F19ECAF050058924D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1062C1019ECAF040058924D /* Law Trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1062C3419ECAF050058924D /* Build configuration list for PBXNativeTarget "Law Trivia" */;
+			buildPhases = (
+				E1062C0D19ECAF040058924D /* Sources */,
+				E1062C0E19ECAF040058924D /* Frameworks */,
+				E1062C0F19ECAF040058924D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Law Trivia";
+			productName = "Law Trivia";
+			productReference = E1062C1119ECAF050058924D /* Law Trivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1062C2919ECAF050058924D /* Law TriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1062C3719ECAF050058924D /* Build configuration list for PBXNativeTarget "Law TriviaTests" */;
+			buildPhases = (
+				E1062C2619ECAF050058924D /* Sources */,
+				E1062C2719ECAF050058924D /* Frameworks */,
+				E1062C2819ECAF050058924D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1062C2C19ECAF050058924D /* PBXTargetDependency */,
+			);
+			name = "Law TriviaTests";
+			productName = "Law TriviaTests";
+			productReference = E1062C2A19ECAF050058924D /* Law TriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1062C0919ECAF040058924D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mario Hernandez";
+				TargetAttributes = {
+					E1062C1019ECAF040058924D = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 3V2G587EZP;
+					};
+					E1062C2919ECAF050058924D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E1062C1019ECAF040058924D;
+					};
+				};
+			};
+			buildConfigurationList = E1062C0C19ECAF040058924D /* Build configuration list for PBXProject "Law Trivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1062C0819ECAF040058924D;
+			productRefGroup = E1062C1219ECAF050058924D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1062C1019ECAF040058924D /* Law Trivia */,
+				E1062C2919ECAF050058924D /* Law TriviaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1062C0F19ECAF040058924D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EDCD3A19F8AC1E004F4801 /* Teresita García.jpg in Resources */,
+				E1EDCD3419F8AC1E004F4801 /* james.jpg in Resources */,
+				E1EDCD2C19F8AC1E004F4801 /* Carlos Fernando Galán.jpg in Resources */,
+				E1EDCD3219F8AC1E004F4801 /* incorrecto.png in Resources */,
+				E1EDCD3019F8AC1E004F4801 /* Edgar Cipriamo.jpg in Resources */,
+				E1062C2019ECAF050058924D /* Main.storyboard in Resources */,
+				E1EDCD2B19F8AC1E004F4801 /* Álvaro Uribe.jpg in Resources */,
+				E1EDCD3119F8AC1E004F4801 /* Horacio Serpa.jpg in Resources */,
+				E1EDCD3919F8AC1E004F4801 /* Roberto Gerlein.jpg in Resources */,
+				E1EDCD2D19F8AC1E004F4801 /* chavo.jpg in Resources */,
+				E1EDCD2F19F8AC1E004F4801 /* correcto.jpg in Resources */,
+				E1EDCD3819F8AC1E004F4801 /* question.png in Resources */,
+				E1EDCD3319F8AC1E004F4801 /* Iván Cepeda.jpg in Resources */,
+				E1EDCD3519F8AC1E004F4801 /* Jorge Robledo.jpg in Resources */,
+				E1062C2519ECAF050058924D /* LaunchScreen.xib in Resources */,
+				E1062C2219ECAF050058924D /* Images.xcassets in Resources */,
+				E1EDCD2E19F8AC1E004F4801 /* Claudia López.jpg in Resources */,
+				E1EDCD3619F8AC1E004F4801 /* José David Name.jpg in Resources */,
+				E1EDCD3719F8AC1E004F4801 /* nifunifa.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1062C2819ECAF050058924D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1062C0D19ECAF040058924D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1062C1D19ECAF050058924D /* ViewController.m in Sources */,
+				E1062C1A19ECAF050058924D /* AppDelegate.m in Sources */,
+				E1062C1719ECAF050058924D /* main.m in Sources */,
+				E1062C4D19ECC6570058924D /* Pregunta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1062C2619ECAF050058924D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1062C3119ECAF050058924D /* Law_TriviaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1062C2C19ECAF050058924D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1062C1019ECAF040058924D /* Law Trivia */;
+			targetProxy = E1062C2B19ECAF050058924D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1062C1E19ECAF050058924D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1062C1F19ECAF050058924D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1062C2319ECAF050058924D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1062C2419ECAF050058924D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1062C3219ECAF050058924D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1062C3319ECAF050058924D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1062C3519ECAF050058924D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Law Trivia/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1062C3619ECAF050058924D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Law Trivia/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1062C3819ECAF050058924D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Law TriviaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Law Trivia.app/Law Trivia";
+			};
+			name = Debug;
+		};
+		E1062C3919ECAF050058924D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Law TriviaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Law Trivia.app/Law Trivia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1062C0C19ECAF040058924D /* Build configuration list for PBXProject "Law Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1062C3219ECAF050058924D /* Debug */,
+				E1062C3319ECAF050058924D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1062C3419ECAF050058924D /* Build configuration list for PBXNativeTarget "Law Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1062C3519ECAF050058924D /* Debug */,
+				E1062C3619ECAF050058924D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1062C3719ECAF050058924D /* Build configuration list for PBXNativeTarget "Law TriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1062C3819ECAF050058924D /* Debug */,
+				E1062C3919ECAF050058924D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1062C0919ECAF040058924D /* Project object */;
+}
